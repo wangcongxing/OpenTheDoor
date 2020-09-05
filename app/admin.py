@@ -5,6 +5,7 @@ from import_export.admin import ImportExportModelAdmin
 from django.apps import apps
 from django.db.models import QuerySet
 import tablib
+
 # Register your models here.
 admin.site.site_header = "大佬管理"
 admin.site.site_title = "大佬管理后台管理"
@@ -82,7 +83,8 @@ class bossInfoResource(resources.ModelResource):
         skip_unchanged = True
         report_skipped = True
         fields = (
-            "id", "age", "gender", "likeFruit", "userUrl", "name", "desc",)
+            "id", "age", "gender", "likeFruit", "userUrl", "name", "desc", "createTime", "lastTime", "creator",
+            "editor")
 
 
 @admin.register(models.bossInfo)
@@ -113,4 +115,62 @@ class bossInfoAdmin(ImportExportModelAdmin):
                 obj.creator = request.user
                 obj.editor = request.user
                 obj.save()
+        super().save_model(request, obj, form, change)
+
+
+
+from django.contrib import admin
+from app import models
+from import_export import resources
+from import_export.admin import ImportExportModelAdmin
+from django.apps import apps
+
+admin.site.site_header = "XXX后台管理"
+admin.site.site_title = "XXX后台"
+
+
+# Register your models here.
+class commodityResource(resources.ModelResource):
+
+    def __init__(self):
+        super(commodityResource, self).__init__()
+
+        field_list = models.commodity._meta.fields
+        self.vname_dict = {}
+        for i in field_list:
+            self.vname_dict[i.name] = i.verbose_name
+
+    # 默认导入导出field的column_name为字段的名称，这里修改为字段的verbose_name
+    def get_export_fields(self):
+        fields = self.get_fields()
+        for field in fields:
+            field_name = self.get_field_name(field)
+            # 如果我们设置过verbose_name，则将column_name替换为verbose_name。否则维持原有的字段名
+            if field_name in self.vname_dict.keys():
+                field.column_name = self.vname_dict[field_name]
+        return fields
+
+    def after_import(self, dataset, result, using_transactions, dry_run, **kwargs):
+        print("after_import")
+
+    def after_import_instance(self, instance, new, **kwargs):
+        print("after_import_instance")
+
+    class Meta:
+        model = models.commodity
+        skip_unchanged = True
+        report_skipped = True
+        fields = ("id", "name", "desc")
+
+
+@admin.register(models.commodity)
+class AppTypeAdmin(ImportExportModelAdmin):
+    list_display = ("name", "desc")
+    list_display_links = ("name", "desc")
+    search_fields = ('name', 'desc')
+    model_icon = "fa fa-tag"
+    list_per_page = 50
+    resource_class = commodityResource
+
+    def save_model(self, request, obj, form, change):
         super().save_model(request, obj, form, change)
