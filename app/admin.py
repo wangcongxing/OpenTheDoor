@@ -18,9 +18,12 @@ class bossInfoResource(resources.ModelResource):
         field_list = models.bossInfo._meta.fields
         self.vname_dict = {}
         self.fkey = []
+        customeFields = (
+            "id", "age", "gender", "likeFruit", "userUrl", "name", "desc",)
         for i in field_list:
-            self.vname_dict[i.name] = i.verbose_name
-            self.fkey.append(i.name)
+            if i.name in customeFields:
+                self.vname_dict[i.name] = i.verbose_name.lower()
+                self.fkey.append(i.name)
 
     # 默认导入导出field的column_name为字段的名称，这里修改为字段的verbose_name
     def get_export_fields(self):
@@ -44,6 +47,10 @@ class bossInfoResource(resources.ModelResource):
         if queryset is None:
             queryset = self.get_queryset()
         headers = self.get_export_headers()
+        headers.append("创建时间")
+        headers.append("修改时间")
+        headers.append("创建者")
+        headers.append("修改者")
         data = tablib.Dataset(headers=headers)
         # 获取所有外键名称在headers中的位置
         fk_index = {}
@@ -69,10 +76,10 @@ class bossInfoResource(resources.ModelResource):
             res[fk_index['userUrl']] = obj.userUrl
             res[fk_index['name']] = obj.name
             res[fk_index['desc']] = obj.desc
-            res[fk_index['createTime']] = obj.createTime
-            res[fk_index['lastTime']] = obj.lastTime
-            res[fk_index['creator']] = obj.creator.username
-            res[fk_index['editor']] = obj.editor.username
+            res.append(obj.createTime)
+            res.append(obj.lastTime)
+            res.append(obj.creator.username)
+            res.append(obj.editor.username)
             data.append(res)
             # --------------------- #
         self.after_export(queryset, data, *args, **kwargs)
@@ -83,8 +90,7 @@ class bossInfoResource(resources.ModelResource):
         skip_unchanged = True
         report_skipped = True
         fields = (
-            "id", "age", "gender", "likeFruit", "userUrl", "name", "desc", "createTime", "lastTime", "creator",
-            "editor")
+            "id", "age", "gender", "likeFruit", "userUrl", "name", "desc",)
 
 
 @admin.register(models.bossInfo)

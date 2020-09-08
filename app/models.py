@@ -27,7 +27,7 @@ class bossInfo(models.Model):
                               choices=STATE_GENDER)
     likeFruit = MultiSelectField(verbose_name="喜欢的水果(多选)", choices=ROLS_FRUIT)
     #headImage = models.ImageField(verbose_name="个人写真(图片文件)", null=False, blank=False, default=None)
-    userUrl = models.URLField(verbose_name="个人主页(URL地址)", null=False, blank=False, default=None)
+    userUrl = models.URLField(verbose_name="个人主页(URL地址)", null=True, blank=True, default=None)
     desc = models.TextField(verbose_name="描述(多行文本)", max_length=1000, null=False, blank=False, default=None)
     # 通过model.  的提示在扩展8个字段  自由发挥
     createTime = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")

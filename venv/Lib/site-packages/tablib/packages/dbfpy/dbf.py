@@ -62,11 +62,12 @@ __author__ = "Jeff Kunce <kuncej@mail.conservation.state.mo.us>"
 
 __all__ = ["Dbf"]
 
-from . import header, record
-from .utils import INVALID_VALUE
+from . import header
+from . import record
+from utils import INVALID_VALUE
 
 
-class Dbf:
+class Dbf(object):
     """DBF accessor.
 
     FIXME:
@@ -113,16 +114,16 @@ class Dbf:
                 ``INVALID_VALUE`` instead of raising conversion error.
 
         """
-        if isinstance(f, str):
+        if isinstance(f, basestring):
             # a filename
             self.name = f
             if new:
                 # new table (table file must be
                 # created or opened and truncated)
-                self.stream = open(f, "w+b")
+                self.stream = file(f, "w+b")
             else:
-                # table file must exist
-                self.stream = open(f, ("r+b", "rb")[bool(readOnly)])
+                # tabe file must exist
+                self.stream = file(f, ("r+b", "rb")[bool(readOnly)])
         else:
             # a stream
             self.name = getattr(f, "name", "")
@@ -176,7 +177,7 @@ class Dbf:
             Return value is numeric object maning valid index.
 
         """
-        if not isinstance(index, int):
+        if not isinstance(index, (int, long)):
             raise TypeError("Index must be a numeric object")
         if index < 0:
             # index from the right side
@@ -186,7 +187,7 @@ class Dbf:
             raise IndexError("Record index out of range")
         return index
 
-    # interface methods
+    # iterface methods
 
     def close(self):
         self.flush()
@@ -203,8 +204,7 @@ class Dbf:
     def indexOfFieldName(self, name):
         """Index of field named ``name``."""
         # FIXME: move this to header class
-        names = [f.name for f in self.header.fields]
-        return names.index(name.upper())
+        return self.header.fields.index(name)
 
     def newRecord(self):
         """Return new record, which belong to this table."""
@@ -294,4 +294,4 @@ if __name__ == '__main__':
     demo_create(_name)
     demo_read(_name)
 
-# vim: set et sw=4 sts=4 :
+    # vim: set et sw=4 sts=4 :

@@ -20,12 +20,12 @@ import time
 def unzfill(str):
     """Return a string without ASCII NULs.
 
-    This function searchers for the first NUL (ASCII 0) occurrence
+    This function searchers for the first NUL (ASCII 0) occurance
     and truncates string till that position.
 
     """
     try:
-        return str[:str.index(b'\0')]
+        return str[:str.index('\0')]
     except ValueError:
         return str
 
@@ -48,7 +48,7 @@ def getDate(date=None):
         sequence:
             assuming (year, month, day, ...) sequence;
 
-    Additionally, if ``date`` has callable ``ticks`` attribute,
+    Additionaly, if ``date`` has callable ``ticks`` attribute,
     it will be used and result of the called would be treated
     as a timestamp value.
 
@@ -60,10 +60,10 @@ def getDate(date=None):
         return date
     if isinstance(date, datetime.datetime):
         return date.date()
-    if isinstance(date, (int, float)):
+    if isinstance(date, (int, long, float)):
         # date is a timestamp
         return datetime.date.fromtimestamp(date)
-    if isinstance(date, str):
+    if isinstance(date, basestring):
         date = date.replace(" ", "0")
         if len(date) == 6:
             # yymmdd
@@ -95,7 +95,7 @@ def getDateTime(value=None):
         sequence:
             assuming (year, month, day, ...) sequence;
 
-    Additionally, if ``value`` has callable ``ticks`` attribute,
+    Additionaly, if ``value`` has callable ``ticks`` attribute,
     it will be used and result of the called would be treated
     as a timestamp value.
 
@@ -107,10 +107,10 @@ def getDateTime(value=None):
         return value
     if isinstance(value, datetime.date):
         return datetime.datetime.fromordinal(value.toordinal())
-    if isinstance(value, (int, float)):
+    if isinstance(value, (int, long, float)):
         # value is a timestamp
         return datetime.datetime.fromtimestamp(value)
-    if isinstance(value, str):
+    if isinstance(value, basestring):
         raise NotImplementedError("Strings aren't currently implemented")
     if hasattr(value, "__getitem__"):
         # a sequence (assuming date/time tuple)
@@ -125,7 +125,7 @@ class classproperty(property):
         return self.fget(cls)
 
 
-class _InvalidValue:
+class _InvalidValue(object):
 
     """Value returned from DBF records when field validation fails
 
@@ -145,7 +145,7 @@ class _InvalidValue:
     def __ne__(self, other):
         return not (other is self)
 
-    def __bool__(self):
+    def __nonzero__(self):
         return False
 
     def __int__(self):
@@ -158,9 +158,11 @@ class _InvalidValue:
     def __str__(self):
         return ""
 
+    def __unicode__(self):
+        return u""
+
     def __repr__(self):
         return "<INVALID>"
-
 
 # invalid value is a constant singleton
 INVALID_VALUE = _InvalidValue()
