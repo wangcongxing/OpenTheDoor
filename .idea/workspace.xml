@@ -2,958 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33969904-61c8-42c6-b8b6-46a7eea09546" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/OpenTheDoor/prd_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenTheDoor/test_settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/0003_commodity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/forms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/nav_sidebar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/responsive_rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/nav_sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE-SELECT2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/dsb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hsb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/i18n/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/automatic/dicts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/automatic/segment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/base.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/base.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/aside.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/avatar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/backtop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/badge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/breadcrumb-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/breadcrumb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/button-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/carousel-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/cascader-panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/cascader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/checkbox-button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/checkbox-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/col.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/collapse-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/color-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/date-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/directives/mousewheel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/directives/repeat-click.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/divider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/drawer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/dropdown-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/dropdown-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/element-ui.common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/form-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/infinite-scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/input-number.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/format.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/af-ZA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/cs-CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/hy-AM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/kg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/kz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/nb-NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ru-RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/sv-SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/tr-TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/ug-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/uz-UZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/locale/lang/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/menu-item-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/menu-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/message-box.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/mixins/emitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/mixins/focus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/mixins/locale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/mixins/migrating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/option-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/option.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/page-header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/radio-button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/radio-group.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/radio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/row.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/steps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/submenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tab-pane.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/table-column.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/alert.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/aside.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/avatar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/backtop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/badge.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/breadcrumb-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/breadcrumb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/button-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/carousel-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/cascader-panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/cascader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/checkbox-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/checkbox-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/checkbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/col.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/collapse-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/collapse.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/color-picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/container.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/date-picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/display.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/divider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/drawer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/dropdown-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/dropdown-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/form-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/image.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/infinite-scroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/infiniteScroll.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/input-number.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/menu-item-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/menu-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/message-box.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/message.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/notification.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/option-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/option.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/page-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/popover.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/popper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/progress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/radio-button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/radio-group.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/radio.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/rate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/row.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/select-dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/step.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/steps.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/submenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/switch.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tab-pane.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/table-column.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tag.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/time-picker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/time-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/timeline-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/transfer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/tree.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/theme-chalk/upload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/time-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/time-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/timeline-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/timeline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/transitions/collapse-transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/af-ZA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/cs-CZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/hy-AM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/kg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ku.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/kz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/nb-NO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ru-RU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/sv-SE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/tr-TR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/ug-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/uz-UZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/umd/locale/zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/after-leave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/aria-dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/aria-utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/clickoutside.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/date-util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/menu/aria-menubar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/menu/aria-menuitem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/menu/aria-submenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/merge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/popup/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/popup/popup-manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/resize-event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/scroll-into-view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/scrollbar-width.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/shared.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/vdom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/elementui/utils/vue-popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/fontawesome-free-5.8.1-web/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/img/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/js/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/locale/en-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/locale/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/locale/zh-hans.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/particles/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/particles/particles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/admin.lte.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/admin.lte.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/admin.lte.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/aircraft.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/aircraft.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/aircraft.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/ant.design.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/ant.design.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/ant.design.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/base.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/black.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/black.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/dark.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/dark.green.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/dark.green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-black.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-blue.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-purple.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red-pro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red-pro.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red-pro.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/e-red.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/element.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/element.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/element.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/gray.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/gray.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/gray.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/green.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/highdmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/highdmin.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/highdmin.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/layui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/layui.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/light.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/orange.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/orange.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/purple.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/purple.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/simpleui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/simpleui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/simpleui.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-blue.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-blue.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-green.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-red.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/theme/x-red.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/waves/waves.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/waves/waves.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/admin/simpleui-x/waves/waves.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/gameImage/app/2019/09/19/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/loginbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/import_export/action_formats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/import_export/import.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/kitadmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/kitadmin.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/login.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/nprogress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/blue-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/blue-dark.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/blue-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/blue-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/default.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/green-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/green-dark.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/green-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/green-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/purple-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/purple-dark.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/purple-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/purple-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/red-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/red-dark.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/red-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/css/theme/red-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/docs/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/docs/mockjs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/docs/route.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/docs/tabs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/docs/utils.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/cascader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/inputnumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/kit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/lodash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/mockjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/mockjsbase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/nprogress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/js/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/kitadmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/lib/polyfill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/mockjs/mockjs-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/temp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/cascader/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/exception/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/exception/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/exception/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/form/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/inputnumber.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/anim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/auxiliar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/badge.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/code.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/flow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/laydate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/layer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/laypage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/laytpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/panel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/progress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/tab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/table-element.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/table.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/temp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/layui/util.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/select/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/table/teble.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/table/teble2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/table/teble3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/user/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/user/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/kit_admin/src/views/user/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/media/upload/2019/11/18/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/LICENSE.python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Django-3.1.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_import_export-2.1.0-py3.8.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_import_export-2.1.0-py3.8.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_import_export-2.1.0-py3.8.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_import_export-2.1.0-py3.8.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_import_export-2.1.0-py3.8.egg-info/not-zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_import_export-2.1.0-py3.8.egg-info/requires.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django_import_export-2.1.0-py3.8.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/formats/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/formats/base_formats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/instance_loaders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/de/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/es/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/it/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/static/import_export/action_formats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/static/import_export/import.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/change_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/change_list_export.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/change_list_export_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/change_list_import.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/change_list_import_export.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/change_list_import_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/export.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templates/admin/import_export/import.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/templatetags/import_export_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/tmp_storages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~-port_export/widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.3.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.3.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.3.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.3.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.3.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~jango_import_export-2.3.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/formats/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/formats/base_formats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/instance_loaders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/ar/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/bg/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/ca/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/cs/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/de/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/de/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/es/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/es/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/es_AR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/es_AR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/fr/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/it/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/it/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/ja/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/kz/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/kz/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/nl/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/pl/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/pt_BR/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/pt_BR/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/sk/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/tr/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/tr/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/static/import_export/action_formats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/static/import_export/import.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/change_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/change_list_export.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/change_list_export_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/change_list_import.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/change_list_import_export.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/change_list_import_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/export.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templates/admin/import_export/import.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/templatetags/import_export_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/tmp_storages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/~mport_export/widgets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenTheDoor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenTheDoor/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/helloH5.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/helloH5.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -967,32 +16,62 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenTheDoor/settings.py">
+        <entry file="file://$PROJECT_DIR$/app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2445">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="378">
+              <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
               <folding>
-                <element signature="e#309#318#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#3335#4178#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenTheDoor/test_settings.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/import_export/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="948">
+              <caret line="482" selection-start-line="482" selection-end-line="482" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OpenTheDoor/prd_settings.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/sites.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="232" selection-start-line="232" selection-end-line="232" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/views/decorators/cache.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/utils/decorators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/helloH5.html">
+        <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="154">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1022,12 +101,12 @@
         <option value="$PROJECT_DIR$/static/test.css" />
         <option value="$PROJECT_DIR$/app/templatetags/apptags.py" />
         <option value="$PROJECT_DIR$/templates/admin/import_export/import.html" />
-        <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/OpenTheDoor/test_settings.py" />
         <option value="$PROJECT_DIR$/OpenTheDoor/prd_settings.py" />
-        <option value="$PROJECT_DIR$/app/admin.py" />
         <option value="$PROJECT_DIR$/OpenTheDoor/settings.py" />
         <option value="$PROJECT_DIR$/templates/helloH5.html" />
+        <option value="$PROJECT_DIR$/app/admin.py" />
+        <option value="$PROJECT_DIR$/app/models.py" />
       </list>
     </option>
   </component>
@@ -1066,6 +145,19 @@
               <item name="OpenTheDoor" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OpenTheDoor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenTheDoor" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpenTheDoor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpenTheDoor" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="import_export" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -1086,7 +178,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1178,7 +270,7 @@
       <workItem from="1599037560939" duration="3271000" />
       <workItem from="1599114649278" duration="804000" />
       <workItem from="1599180481088" duration="590000" />
-      <workItem from="1599265807878" duration="20413000" />
+      <workItem from="1599265807878" duration="25799000" />
     </task>
     <task id="LOCAL-00001" summary="导入遇到问题修改中">
       <created>1599275848796</created>
@@ -1194,11 +286,25 @@
       <option name="project" value="LOCAL" />
       <updated>1599276022087</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="导入遇到问题修改中">
+      <created>1599555048800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599555048800</updated>
+    </task>
+    <task id="LOCAL-00004" summary="导入遇到问题修改中">
+      <created>1599560317201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599560317201</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40926000" />
+    <option name="totallyTimeSpent" value="46312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1209,7 +315,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2494577" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37852496" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1220,7 +326,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28199565" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="调试" order="13" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1234,6 +340,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="导入遇到问题修改中" />
     <option name="LAST_COMMIT_MESSAGE" value="导入遇到问题修改中" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Python.DjangoServer">
+        <watch expression="res" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OpenTheDoor$tests.coverage" NAME="tests Coverage Results" MODIFIED="1599037005789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
@@ -1289,60 +402,12 @@
     <entry file="file://$PROJECT_DIR$/templates/admin/import_export/export.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin/import_export/import.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="5" column="17" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenTheDoor/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#617#2052#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/import_export/resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1996">
-          <caret line="376" column="20" selection-start-line="376" selection-start-column="8" selection-end-line="376" selection-end-column="20" />
-          <folding>
-            <element signature="e#30869#31037#0" />
-            <element signature="e#31099#31275#0" />
-            <element signature="e#31368#32523#0" />
-            <element signature="e#32601#32775#0" />
-            <element signature="e#32876#33364#0" />
-            <element signature="e#33410#33468#0" />
-            <element signature="e#33506#33691#0" />
-            <element signature="e#33740#33829#0" />
-            <element signature="e#33923#34533#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#380#3250#0" />
-            <element signature="e#3335#4178#0" />
           </folding>
         </state>
       </provider>
@@ -1356,7 +421,7 @@
     <entry file="file://$PROJECT_DIR$/OpenTheDoor/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2445">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
@@ -1365,8 +430,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/helloH5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="66">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/import_export/import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/import_export/resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="515" column="21" selection-start-line="515" selection-start-column="21" selection-end-line="515" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/views/decorators/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/utils/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/import_export/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="482" selection-start-line="482" selection-end-line="482" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#3335#4178#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
