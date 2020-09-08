@@ -13,7 +13,7 @@ def import_head_tag(context):
         fields = apps.get_model(opts[0], opts[1])._meta.fields
         for fs in fields:
             if (str(fs).split(".")[-1] == str(f)):
-                verbose_names.append(fs.verbose_name)
+                verbose_names.append(fs.verbose_name.lower())
                 break
 
     return "，".join(verbose_names)
