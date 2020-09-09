@@ -44,13 +44,3 @@ class bossInfo(models.Model):
     def __str__(self):
         return self.name
 
-
-class commodity(models.Model):
-    name = models.CharField(max_length=225, verbose_name="商品名称", blank=True, default="")
-    desc = models.TextField(verbose_name="商品描述", blank=True)
-
-    class Meta:
-        verbose_name_plural = "商品表"
-
-    def __str__(self):
-        return self.name

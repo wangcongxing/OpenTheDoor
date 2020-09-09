@@ -4,31 +4,33 @@
 {% load import_export_tags %}
 
 {% block breadcrumbs_last %}
-{% trans "Export" %}
+    {% trans "Export" %}
 {% endblock %}
 
 {% block content %}
-<form action="" method="POST">
-  {% csrf_token %}
+    <form action="" method="POST">
+        {% csrf_token %}
 
-    <fieldset class="module aligned">
-      {% for field in form %}
-        <div class="form-row">
-          {{ field.errors }}
+        <fieldset class="module aligned">
+            {% for field in form %}
+                <div class="form-row">
+                    {{ field.errors }}
 
-          {{ field.label_tag }}
+                    {{ field.label_tag }}
 
-          {{ field }}
+                    {{ field }}
 
-          {% if field.field.help_text %}
-          <p class="help">{{ field.field.help_text|safe }}</p>
-          {% endif %}
+                    {% if field.field.help_text %}
+                        <p class="help">{{ field.field.help_text|safe }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </fieldset>
+
+        <div class="submit-row">
+            <input type="button" class="el-button el-button--default is-plain" style="float: left"
+                   onclick="javascript:window.history.go(-1)" value="返回"/>
+            <input type="submit" class="default" value="{% trans "Submit" %}">
         </div>
-      {% endfor %}
-    </fieldset>
-
-    <div class="submit-row">
-      <input type="submit" class="default" value="{% trans "Submit" %}">
-    </div>
-</form>
+    </form>
 {% endblock %}
