@@ -226,7 +226,8 @@ REST_FRAMEWORK = {
     'ALLOWED_VERSIONS': ['v1', 'v2'],
     'VERSION_PARAM': 'version',
     # 数据格式化 将body post 里面全部序列化成json
-    'DEFAULT_PARSER_CLASSES': ['rest_framework.parsers.JSONParser', 'rest_framework.parsers.FormParser'],
+    'DEFAULT_PARSER_CLASSES': ['rest_framework.parsers.JSONParser', 'rest_framework.parsers.FormParser',
+                               'rest_framework.parsers.MultiPartParser'],
     # 为授权用户显示为None
     "UNAUTHENTICATED_USER": lambda: None,
     # 访问评率控制

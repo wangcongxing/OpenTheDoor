@@ -2,13 +2,22 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from rest_framework_jwt.settings import api_settings
 from rest_framework.response import Response
+
+from rest_framework import serializers
 from rest_framework.views import APIView
 from django.contrib.auth.models import Permission, User
 from app import models
 from rest_framework.versioning import URLPathVersioning
 from rest_framework.request import Request
 from app.utils import throttle
+from rest_framework.pagination import PageNumberPagination, LimitOffsetPagination
+
+
 # Create your views here.
+
+def h(request):
+    return render(request, 'h.html')
+
 
 class APIResponse(Response):
     def __init__(self, data_status=0, data_msg='ok', results=None
@@ -39,11 +48,12 @@ class LoginJWTAPIView(APIView):
     throttle_classes = [throttle.VisitThrottle]
 
     def get(self, request, *args, **kwargs):
+
         # 获取版本
         print(request.version)
         # 获取版本管理的类
         print(request.versioning_scheme)
-        print(request.query_params.get("version",None))
+        print(request.query_params.get("version", None))
         # 反向生成URL
         reverse_url = request.versioning_scheme.reverse('getAuthToken', request=request)
         print(reverse_url)
@@ -73,3 +83,109 @@ class LoginJWTAPIView(APIView):
             'username': user.username,
             'token': token
         })
+
+
+class PasswordValidator(object):
+    def __init__(self, base):
+        self.base = str(base)
+
+    def __call__(self, value):
+        if value != self.base:
+            message = 'This field must be %s.' % self.base
+            raise serializers.ValidationError(message)
+
+    def set_context(self, serializer_field):
+        """
+        This hook is called by the serializer instance,
+        prior to the validation call being made.
+        """
+        # 执行验证之前调用,serializer_fields是当前字段对象
+        pass
+
+
+class ModelBossInfoSerializer(serializers.ModelSerializer):
+    # 自定义字段
+    xxxxxxx = serializers.CharField(source="get_gender_display")
+    mmmmmmm = serializers.SerializerMethodField()  # 自定义函数显示
+
+    class Meta:
+        model = models.bossInfo
+        # fields = "__all__"
+        fields = ['name', 'age', 'xxxxxxx', 'mmmmmmm', 'rls', 'sports', "likeFruit", "userUrl", ]
+        depth = 2
+        # extra_kwargs = {'user': {'min_length': 6}, 'pwd': {'validators': [PasswordValidator(666), ]}}
+
+    # 函数名必须以get_开头  否则会报错
+    def get_mmmmmmm(self, row):
+        return ["A", "B", "C"]
+
+
+class StandardResultsSetPagination(LimitOffsetPagination):
+    # 默认每页显示的数据条数
+    default_limit = 10
+    # URL中传入的显示数据条数的参数
+    limit_query_param = 'limit'
+    # URL中传入的数据位置的参数
+    offset_query_param = 'offset'
+    # 最大每页显得条数
+    max_limit = None
+
+
+# 继承关系
+# View 基类
+# 复杂的逻辑继承 GenericViewSet 或 APIView
+# 基本的增删改查就继承 ModelViewSet
+
+class GetBossInfo(APIView):
+    # 获取信息
+    def get(self, request, *args, **kwargs):
+        print(request.version)
+        bInfos = models.bossInfo.objects.all().order_by('id')
+        ser = ModelBossInfoSerializer(instance=bInfos, many=True)  # 全部返回生成环境 基本不可能
+
+        # 实例化分页对象，获取数据库中的分页数据
+        paginator = StandardResultsSetPagination()
+        page_user_list = paginator.paginate_queryset(bInfos, self.request, view=self)
+
+        # 生成分页和数据
+        response = paginator.get_paginated_response(ser.data)
+
+        # return APIResponse(0, 'ok', results={'infos': ser.data,})
+        return response
+
+    # 提交信息
+    def post(self, request, *args, **kwargs):
+        print(request.user)
+        print(request.user["username"])
+        bInfos = models.bossInfo.objects.all()
+        ser = ModelBossInfoSerializer(instance=bInfos, many=True)
+        return APIResponse(0, 'ok', results={
+            'infos': ser.data,
+        })
+
+    # 更新信息
+    def put(self, request, *args, **kwargs):
+        return APIResponse(0, 'ok', results={
+            'method': request.method.upper(),
+        })
+
+    # 删除信息
+    def delete(self, request, *args, **kwargs):
+        return APIResponse(0, 'ok', results={
+            'method': request.method.upper(),
+        })
+
+
+from rest_framework.viewsets import ModelViewSet
+
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = models.role
+        fields = "__all__"
+
+
+class UserViewSet(ModelViewSet):
+    queryset = models.role.objects.all()
+    serializer_class = UserSerializer
+    pagination_class = PageNumberPagination

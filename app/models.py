@@ -17,16 +17,27 @@ STATE_GENDER = ((0, "男"), (1, "女"), (2, "保密"))
 ROLS_FRUIT = ((0, '西瓜'), (1, '草莓'), (2, '菠萝'))
 
 
+# 角色表
+class role(models.Model):
+    name = models.CharField(verbose_name="角色", max_length=225, null=False, blank=False, default="")
+
+
+class sports(models.Model):
+    name = models.CharField(verbose_name="运动名称", max_length=225, null=False, blank=False, default="")
+
 
 # 大佬信息
 class bossInfo(models.Model):
     name = models.CharField(verbose_name="姓名(文本类型)", max_length=225, null=False, blank=False, default="")
+    rls = models.ForeignKey(role, verbose_name="角色", null=True, blank=True, on_delete=models.SET_NULL, default=1)
+    sports = models.ManyToManyField(sports, verbose_name="喜欢的运动", null=True, blank=True,
+                                    default=1)
     # 课后练习 如何控制输入的 age 大于20 小于100
     age = models.IntegerField(verbose_name="年龄(数字类型)", null=False, blank=False, default=1)
     gender = models.IntegerField(verbose_name="性别(单选)", null=False, blank=False, default=1,
-                              choices=STATE_GENDER)
+                                 choices=STATE_GENDER)
     likeFruit = MultiSelectField(verbose_name="喜欢的水果(多选)", choices=ROLS_FRUIT)
-    #headImage = models.ImageField(verbose_name="个人写真(图片文件)", null=False, blank=False, default=None)
+    # headImage = models.ImageField(verbose_name="个人写真(图片文件)", null=False, blank=False, default=None)
     userUrl = models.URLField(verbose_name="个人主页(URL地址)", null=True, blank=True, default=None)
     desc = models.TextField(verbose_name="描述(多行文本)", max_length=1000, null=False, blank=False, default=None)
     # 通过model.  的提示在扩展8个字段  自由发挥
@@ -58,18 +69,26 @@ import random, os
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 import OpenTheDoor.settings as config
+
 STATE_CHOICES = ((0, "是"), (1, "否"))
 AUTHTYPE_CHOICES = ((1, '消息'), (2, 'EOA'), (3, '组织架构'))
 DEVELOPMENTLANGUAGE_CHOICES = ((0, 'Python'), (1, 'Java'), (2, 'C#'), (3, 'GO'), (4, 'PHP'))
+
+
 # 方法重命名
 def rename(newname):
     def decorator(fn):
         fn.__name__ = newname
         return fn
+
     return decorator
+
+
 def newImageName(instance, filename):
     filename = '{}.{}'.format(uuid.uuid4().hex, "png")
     return filename
+
+
 # 生成预约订单号
 # 用时间生成一个唯一随机数
 
@@ -115,4 +134,3 @@ class appManager(models.Model):
 
     def __str__(self):
         return self.name
-

@@ -9,6 +9,7 @@ class UserAuthentication(BaseAuthentication):
         if 'token' in request.data:
             try:
                 token = request.data['token']
+                print("token===>", token)
                 jwt_decode_handler = api_settings.JWT_DECODE_HANDLER
                 user_dict = jwt_decode_handler(token)
                 return user_dict, token
