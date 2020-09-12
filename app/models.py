@@ -23,7 +23,7 @@ class bossInfo(models.Model):
     name = models.CharField(verbose_name="姓名(文本类型)", max_length=225, null=False, blank=False, default="")
     # 课后练习 如何控制输入的 age 大于20 小于100
     age = models.IntegerField(verbose_name="年龄(数字类型)", null=False, blank=False, default=1)
-    gender = models.IntegerField(verbose_name="性别(单选)", max_length=225, null=False, blank=False, default=1,
+    gender = models.IntegerField(verbose_name="性别(单选)", null=False, blank=False, default=1,
                               choices=STATE_GENDER)
     likeFruit = MultiSelectField(verbose_name="喜欢的水果(多选)", choices=ROLS_FRUIT)
     #headImage = models.ImageField(verbose_name="个人写真(图片文件)", null=False, blank=False, default=None)

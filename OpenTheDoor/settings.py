@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'p3vh@avf2g27*@j(a-n*qd82391=egsy1lztzb=s$ey4)sloid'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True # False的时候才会发送邮件提醒
 
 ALLOWED_HOSTS = ["*"]
 
@@ -127,7 +127,7 @@ STATICFILES_DIRS = [
 
 # 管理员邮箱
 ADMINS = (
-    ('laixintao', '*******@163.com'),
+    ('wangcongxing', '2256807897@qq.com'),
 )
 
 # 非空链接，却发生404错误，发送通知MANAGERS
@@ -136,10 +136,10 @@ MANAGERS = ADMINS
 
 # Email设置
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.163.com'  # QQ邮箱SMTP服务器(邮箱需要开通SMTP服务)
+EMAIL_HOST = 'smtp.qq.com'  # QQ邮箱SMTP服务器(邮箱需要开通SMTP服务)
 EMAIL_PORT = 25  # QQ邮箱SMTP服务端口
-EMAIL_HOST_USER = '**********@163.com'  # 我的邮箱帐号
-EMAIL_HOST_PASSWORD = '**************'  # 授权码
+EMAIL_HOST_USER = '3136143551@qq.com'  # 我的邮箱帐号
+EMAIL_HOST_PASSWORD = 'npowehgkuuxrdfgh'  # 授权码
 EMAIL_SUBJECT_PREFIX = 'website'  # 为邮件标题的前缀,默认是'[django]'
 EMAIL_USE_TLS = True  # 开启安全链接
 DEFAULT_FROM_EMAIL = SERVER_EMAIL = EMAIL_HOST_USER  # 设置发件人
