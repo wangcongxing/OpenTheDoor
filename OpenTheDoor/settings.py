@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-import os
+import os, datetime
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'p3vh@avf2g27*@j(a-n*qd82391=egsy1lztzb=s$ey4)sloid'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True # False的时候才会发送邮件提醒
+DEBUG = True  # False的时候才会发送邮件提醒
 
 ALLOWED_HOSTS = ["*"]
 
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app.apps.AppConfig',
+    'rest_framework',
+    'rest_framework.authtoken',
 ]
 IMPORT_EXPORT_USE_TRANSACTIONS = True
 
@@ -144,7 +146,6 @@ EMAIL_SUBJECT_PREFIX = 'website'  # 为邮件标题的前缀,默认是'[django]'
 EMAIL_USE_TLS = True  # 开启安全链接
 DEFAULT_FROM_EMAIL = SERVER_EMAIL = EMAIL_HOST_USER  # 设置发件人
 
-
 log_path = os.path.join(BASE_DIR, "logs")
 if not os.path.exists(log_path):
     os.makedirs("logs")
@@ -189,7 +190,7 @@ LOGGING = {
     },
     'loggers': {  # logging管理器
         'django': {
-            'handlers': [],#如果需要在控制台输出['console']
+            'handlers': [],  # 如果需要在控制台输出['console']
             'level': 'DEBUG',
             'propagate': False
         },
@@ -204,4 +205,72 @@ LOGGING = {
             'propagate': False,
         },
     }
+}
+
+# REST_FRAMEWORK JWT 验证
+REST_FRAMEWORK = {
+    # 设置所有接口都需要被验证
+    'DEFAULT_PERMISSION_CLASSES': (
+        # 'rest_framework.permissions.IsAuthenticated',  建议是特定接口特定认证
+    ),
+    # 用户登陆认证方式
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'app.utils.authentication.UserAuthentication',  # 用自定义的认证类
+    ),
+    # 设置版本
+    'DEFAULT_VERSIONING_CLASS': "rest_framework.versioning.URLPathVersioning",  # 版本处理类
+    'DEFAULT_VERSION': 'v1',
+    'ALLOWED_VERSIONS': ['v1', 'v2'],
+    'VERSION_PARAM': 'version',
+    # 数据格式化 将body post 里面全部序列化成json
+    'DEFAULT_PARSER_CLASSES': ['rest_framework.parsers.JSONParser', 'rest_framework.parsers.FormParser'],
+    # 为授权用户显示为None
+    "UNAUTHENTICATED_USER": lambda: None,
+    # 访问评率控制
+    'DEFAULT_THROTTLE_CLASSES': ['app.utils.throttle.UserThrottle'],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '10/m',
+        'user': '100/h',
+    },
+}
+
+JWT_AUTH = {
+    'JWT_ENCODE_HANDLER':
+        'rest_framework_jwt.utils.jwt_encode_handler',
+
+    'JWT_DECODE_HANDLER':
+        'rest_framework_jwt.utils.jwt_decode_handler',
+
+    'JWT_PAYLOAD_HANDLER':
+        'rest_framework_jwt.utils.jwt_payload_handler',
+
+    'JWT_PAYLOAD_GET_USER_ID_HANDLER':
+        'rest_framework_jwt.utils.jwt_get_user_id_from_payload_handler',
+
+    'JWT_RESPONSE_PAYLOAD_HANDLER':
+        'rest_framework_jwt.utils.jwt_response_payload_handler',
+
+    # 这是用于签署JWT的密钥，确保这是安全的，不共享不公开的
+    'JWT_SECRET_KEY': SECRET_KEY,
+    'JWT_GET_USER_SECRET_KEY': None,
+    'JWT_PUBLIC_KEY': None,
+    'JWT_PRIVATE_KEY': None,
+    'JWT_ALGORITHM': 'HS256',
+    # 如果秘钥是错误的，它会引发一个jwt.DecodeError
+    'JWT_VERIFY': True,
+    'JWT_VERIFY_EXPIRATION': True,
+    'JWT_LEEWAY': 0,
+    # Token过期时间设置
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(minutes=5),
+    'JWT_AUDIENCE': None,
+    'JWT_ISSUER': None,
+    # 是否开启允许Token刷新服务，及限制Token刷新间隔时间，从原始Token获取开始计算
+    'JWT_ALLOW_REFRESH': False,
+    'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7),
+    # 定义与令牌一起发送的Authorization标头值前缀
+    'JWT_AUTH_HEADER_PREFIX': 'JWT',
+    'JWT_AUTH_COOKIE': None,
 }

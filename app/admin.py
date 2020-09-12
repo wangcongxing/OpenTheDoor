@@ -6,13 +6,13 @@ from django.core.exceptions import ValidationError
 from django.db.transaction import TransactionManagementError
 from django.utils.encoding import force_text
 from import_export.results import RowResult
-
+from django.contrib.auth.models import Permission, User
 from app import models
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
 from django.apps import apps
 from django.db.models import QuerySet
-import tablib
+import tablib,uuid
 
 # Register your models here.
 admin.site.site_header = "大佬管理"
@@ -202,4 +202,41 @@ class bossInfoAdmin(ImportExportModelAdmin):
                 obj.creator = request.user
                 obj.editor = request.user
                 obj.save()
+        super().save_model(request, obj, form, change)
+
+
+# 应用管理
+@admin.register(models.appManager)
+class appManagerAdmin(ImportExportModelAdmin):
+    fields = (
+        "name", "state",
+        "contactPerson", "whitelist", "domain")
+    list_display = (
+        "name", "appid", "secret", "state",
+        "createTime",
+        "lastTime",
+        "creator", "editor")
+    list_display_links = ("name",)
+    exclude = ("createTime", "creator", "editor")
+    search_fields = ("name",)
+    list_filter = ("state",)
+    model_icon = "fa fa-tag"
+    list_per_page = 20
+    ordering = ["-id"]
+
+    def save_model(self, request, obj, form, change):
+        if form.is_valid():
+            if change:
+                obj.editor = request.user
+            else:
+                appid = str(uuid.uuid4())
+                secret = str(uuid.uuid4())
+                obj.appid = appid
+                obj.secret = secret
+                obj.creator = request.user
+                obj.editor = request.user
+                obj.save()
+                # 新创建一个授权用户
+                User.objects.create_user(username=appid, password=secret, is_staff=True, is_active=True,
+                                         first_name=obj.name)
         super().save_model(request, obj, form, change)

@@ -1,3 +1,5 @@
+djangorestframework
+djangorestframework-jwt
 asgiref==3.2.10
 defusedxml==0.6.0
 diff-match-patch==20200713

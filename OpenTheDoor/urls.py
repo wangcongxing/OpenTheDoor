@@ -25,8 +25,10 @@ from django.views import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('helloWorld/', views.helloWorld),
-    path('helloH5/', views.helloH5),
+    # 获取token
+    # path('<str:version>/getAuthToken', views.LoginJWTAPIView.as_view(), name='getAuthToken'),
+    url(r'^(?P<version>[v1|v2]+)/getAuthToken/', views.LoginJWTAPIView.as_view(), name='getAuthToken'),
+    # 版本
     url(r'^static/(?P<path>.*)$', static.serve,
         {'document_root': settings.STATIC_ROOT}, name='static')
 ]
