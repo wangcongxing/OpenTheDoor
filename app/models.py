@@ -30,7 +30,7 @@ class sports(models.Model):
 class bossInfo(models.Model):
     name = models.CharField(verbose_name="姓名(文本类型)", max_length=225, null=False, blank=False, default="")
     rls = models.ForeignKey(role, verbose_name="角色", null=True, blank=True, on_delete=models.SET_NULL, default=1)
-    sports = models.ManyToManyField(sports, verbose_name="喜欢的运动", null=True, blank=True,
+    sports = models.ManyToManyField(sports, verbose_name="喜欢的运动",  blank=True,
                                     default=1)
     # 课后练习 如何控制输入的 age 大于20 小于100
     age = models.IntegerField(verbose_name="年龄(数字类型)", null=False, blank=False, default=1)
