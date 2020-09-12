@@ -139,7 +139,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'  # QQ邮箱SMTP服务器(邮箱需要开通SMTP服务)
 EMAIL_PORT = 25  # QQ邮箱SMTP服务端口
 EMAIL_HOST_USER = '3136143551@qq.com'  # 我的邮箱帐号
-EMAIL_HOST_PASSWORD = 'npowehgkuuxrdfga'  # 授权码
+EMAIL_HOST_PASSWORD = 'npowehgkuuxrdfgh'  # 授权码
 EMAIL_SUBJECT_PREFIX = 'website'  # 为邮件标题的前缀,默认是'[django]'
 EMAIL_USE_TLS = True  # 开启安全链接
 DEFAULT_FROM_EMAIL = SERVER_EMAIL = EMAIL_HOST_USER  # 设置发件人
