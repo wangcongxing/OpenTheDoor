@@ -18,6 +18,9 @@ from rest_framework.pagination import PageNumberPagination, LimitOffsetPaginatio
 def h(request):
     return render(request, 'h.html')
 
+def LoginHtml(request):
+    return render(request, 'LoginMP.html')
+
 
 class APIResponse(Response):
     def __init__(self, data_status=0, data_msg='ok', results=None
@@ -119,6 +122,87 @@ class ModelBossInfoSerializer(serializers.ModelSerializer):
     def get_mmmmmmm(self, row):
         return ["A", "B", "C"]
 
+
+# 微信公众号登录
+class LoginMP(APIView):
+    authentication_classes = ()
+    permission_classes = ()
+    throttle_classes = [throttle.VisitThrottle]
+
+    def get(self, request, *args, **kwargs):
+        # 获取版本
+        print(request.version)
+        # 获取版本管理的类
+        print(request.versioning_scheme)
+        print(request.query_params.get("version", None))
+        appid = ""
+        user = User.objects.filter(username=appid).first()
+        if user is None:
+            return APIResponse(-2, 'appid或secret输入有误')
+
+        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
+        payload = jwt_payload_handler(user)
+        token = jwt_encode_handler(payload)
+        return APIResponse(0, 'ok', results={
+            'username': user.username,
+            'token': token
+        })
+
+
+# 微信企业号登录
+class LoginWork(APIView):
+    authentication_classes = ()
+    permission_classes = ()
+    throttle_classes = [throttle.VisitThrottle]
+
+    def get(self, request, *args, **kwargs):
+        # 获取版本
+        print(request.version)
+        # 获取版本管理的类
+        print(request.versioning_scheme)
+        print(request.query_params.get("version", None))
+        print(request.query_params.get("code", None))
+
+        appid = ""
+        user = User.objects.filter(username=appid).first()
+        if user is None:
+            return APIResponse(-2, 'appid或secret输入有误')
+
+        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
+        payload = jwt_payload_handler(user)
+        token = jwt_encode_handler(payload)
+        return APIResponse(0, 'ok', results={
+            'username': user.username,
+            'token': token
+        })
+
+# 内网登录
+class LoginPC(APIView):
+    authentication_classes = ()
+    permission_classes = ()
+    throttle_classes = [throttle.VisitThrottle]
+
+    def get(self, request, *args, **kwargs):
+        # 获取版本
+        print(request.version)
+        # 获取版本管理的类
+        print(request.versioning_scheme)
+        print(request.query_params.get("version", None))
+        appid = ""
+        user = User.objects.filter(username=appid).first()
+        if user is None:
+            return APIResponse(-2, 'appid或secret输入有误')
+
+        jwt_payload_handler = api_settings.JWT_PAYLOAD_HANDLER
+        jwt_encode_handler = api_settings.JWT_ENCODE_HANDLER
+        payload = jwt_payload_handler(user)
+        token = jwt_encode_handler(payload)
+        return APIResponse(0, 'ok', results={
+            'username': user.username,
+            'token': token
+        })
 
 class StandardResultsSetPagination(LimitOffsetPagination):
     # 默认每页显示的数据条数

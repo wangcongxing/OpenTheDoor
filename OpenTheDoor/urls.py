@@ -30,7 +30,11 @@ router.register(r'role', views.UserViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-path('h/', views.h),
+    path('h/', views.h),
+    path('LoginMP.html', views.LoginHtml),
+    # 微信公众号登录
+
+    path('LoginMP/', views.LoginMP.as_view()),
     # 自动生成增删改查url
     url(r'^(?P<version>[v1|v2]+)/', include(router.urls)),
     # 增删改查url配置
